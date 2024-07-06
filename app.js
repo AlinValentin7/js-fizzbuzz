@@ -11,15 +11,21 @@
         //per dire che il numero e divisibile
         //-usiamo l operatore AND per dire che sia quando ce un multiplo di 3 e sia che quando ce ne uno di 5
         //-stampiamo in console la scritta "FizzBuzz"
-    if (i % 3 === 0 && i % 5 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) 
+    {
         console.log("FizzBuzz");  //String|Null
-    //Scriviamo 'Fizz' per i numeri multipli di 3     
-    } else if (i % 3 === 0) {
+       
+    }//Scriviamo 'Fizz' per i numeri multipli di 3  
+    else if (i % 3 === 0) 
+    {
         console.log("Fizz");// String|Null
-    //Scriviamo 'Buzz' per i multipli di 5    
-    } else if (i % 5 === 0) {
+    
+    }//Scriviamo 'Buzz' per i multipli di 5   
+    else if (i % 5 === 0) 
+    {
         console.log("Buzz"); //String | Null 
-    } else {
+    } else 
+    {
         console.log(i); //Stampiamo in console il risultato 
     }
 }
